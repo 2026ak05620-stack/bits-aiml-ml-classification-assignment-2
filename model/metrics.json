@@ -1,0 +1,55 @@
+{
+    "evaluation_method": "Weighted metrics; multiclass AUC using One-vs-Rest",
+    "training_records": 10888,
+    "testing_records": 2723,
+    "number_of_features": 16,
+    "number_of_classes": 7,
+    "winner_by_weighted_f1": "Support Vector Machine",
+    "models": [
+        {
+            "ML Model Name": "Support Vector Machine",
+            "Accuracy": 0.9221446933529196,
+            "AUC": 0.9936801268088292,
+            "Precision": 0.9224256521079515,
+            "Recall": 0.9221446933529196,
+            "F1 Score": 0.9221767190269771,
+            "MCC": 0.9058700549308653
+        },
+        {
+            "ML Model Name": "Logistic Regression",
+            "Accuracy": 0.9210429673154609,
+            "AUC": 0.9933941247215768,
+            "Precision": 0.9218503970464837,
+            "Recall": 0.9210429673154609,
+            "F1 Score": 0.9212333457831444,
+            "MCC": 0.9046090702931583
+        },
+        {
+            "ML Model Name": "K-Nearest Neighbors",
+            "Accuracy": 0.9166360631656262,
+            "AUC": 0.9812466098253438,
+            "Precision": 0.9174092603022151,
+            "Recall": 0.9166360631656262,
+            "F1 Score": 0.9168048079580464,
+            "MCC": 0.8992035213926259
+        },
+        {
+            "ML Model Name": "Naive Bayes",
+            "Accuracy": 0.8979067205288285,
+            "AUC": 0.9902012665797979,
+            "Precision": 0.9007023749849569,
+            "Recall": 0.8979067205288285,
+            "F1 Score": 0.8980754820999807,
+            "MCC": 0.8772632840842779
+        },
+        {
+            "ML Model Name": "Decision Tree",
+            "Accuracy": 0.8916636063165626,
+            "AUC": 0.9329623772083053,
+            "Precision": 0.8912470304116911,
+            "Recall": 0.8916636063165626,
+            "F1 Score": 0.8913219229524194,
+            "MCC": 0.869058835971552
+        }
+    ]
+}
